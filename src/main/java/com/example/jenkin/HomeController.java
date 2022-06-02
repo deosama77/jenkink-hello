@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/hello")
     public String getHello(){
-         return  "Hello world is done";
+         return  "Hello world is done update";
     }
 }
